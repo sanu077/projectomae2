@@ -30,3 +30,33 @@ body {
     // text-transform: uppercase;
     font-weight: bold;
 }
+
+.footer2{
+    background: #694873;
+    color:#C6D2ED;
+    
+    .links{
+      ul {list-style-type: none;
+        line-height: 1.5;}
+      li  {
+        color: #E7E6F7;
+        
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+
+  .icon-bike {
+    filter: invert(82%) sepia(32%) saturate(180%) hue-rotate(185deg) brightness(98%) contrast(89%);
+  }
