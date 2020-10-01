@@ -68,4 +68,16 @@ body {
   -webkit-filter: invert(82%) sepia(32%) saturate(180%) hue-rotate(185deg) brightness(98%) contrast(89%);
           filter: invert(82%) sepia(32%) saturate(180%) hue-rotate(185deg) brightness(98%) contrast(89%);
 }
+
+@media (min-width: 850px) {
+  .alinhamentomensagem {
+    font-size: 20px;
+  }
+  .alinhamentomensagem p {
+    padding-left: 3em;
+  }
+  .alinhamentomensagem h1 {
+    font-size: 2.5em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
